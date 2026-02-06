@@ -9,7 +9,11 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Aplikasi membutuhkan akses galeri untuk memilih foto profil.",
+        "NSPhotoLibraryAddUsageDescription": "Aplikasi membutuhkan akses untuk menyimpan foto profil."
+      }
     },
     "android": {
       "adaptiveIcon": {

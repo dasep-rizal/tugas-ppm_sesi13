@@ -16,7 +16,7 @@ export default function RegisterScreen() {
 
     useEffect(() => {
         if (user) {
-            router.replace("/");
+            router.replace("/(tabs)");
         }
     }, [user]);
 
